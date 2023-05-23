@@ -29,3 +29,7 @@ def go_to_home():
 @views.route("/profile_html")
 def profile_html():
     return render_template("profile.html")
+
+@views.route("/examples")
+def examples():
+    return render_template("Examples.html")
